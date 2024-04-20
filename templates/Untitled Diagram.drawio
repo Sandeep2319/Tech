@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-20T07:53:07.955Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="-bm-w7P33frlg4Oc9RD2" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-20T08:14:30.796Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="gufxDBPpD4Z1KNpTql9M" version="24.2.7" type="github">
   <diagram name="Page-1" id="S2Zd7SUTDXQVfa4Ri9lw">
-    <mxGraphModel dx="4189" dy="1600" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6584" dy="2480" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,7 +12,7 @@
         <mxCell id="B4yxiOCJZMTcJZR9WHJV-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;" parent="1" vertex="1">
           <mxGeometry x="252" y="13" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="B4yxiOCJZMTcJZR9WHJV-2" value="API Gateway&lt;div&gt;(Kong,Nginx)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="B4yxiOCJZMTcJZR9WHJV-2" value="&lt;b&gt;API Gateway&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Kong,Nginx)&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="279.5" y="43" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B4yxiOCJZMTcJZR9WHJV-3" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" parent="1" target="B4yxiOCJZMTcJZR9WHJV-4" edge="1">
@@ -32,7 +32,7 @@
         <mxCell id="B4yxiOCJZMTcJZR9WHJV-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;" parent="1" vertex="1">
           <mxGeometry x="132" y="168" width="365" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B4yxiOCJZMTcJZR9WHJV-5" value="Load Balancer&lt;div&gt;(Kubernetes, Ingres)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="B4yxiOCJZMTcJZR9WHJV-5" value="&lt;b&gt;Load Balancer&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Kubernetes, Ingres)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="238.5" y="183" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B4yxiOCJZMTcJZR9WHJV-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.298;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" parent="1" edge="1">
@@ -60,13 +60,13 @@
         <mxCell id="B4yxiOCJZMTcJZR9WHJV-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="376" y="469" width="217" height="108" as="geometry" />
         </mxCell>
-        <mxCell id="B4yxiOCJZMTcJZR9WHJV-22" value="Order processing Fulfilment&lt;div&gt;(Python)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#CCE5FF;" parent="1" vertex="1">
+        <mxCell id="B4yxiOCJZMTcJZR9WHJV-22" value="&lt;b&gt;Order processing Fulfilment&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Python)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#CCE5FF;" parent="1" vertex="1">
           <mxGeometry x="384.5" y="490" width="200" height="66" as="geometry" />
         </mxCell>
         <mxCell id="B4yxiOCJZMTcJZR9WHJV-24" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="379" y="649" width="217" height="108" as="geometry" />
         </mxCell>
-        <mxCell id="B4yxiOCJZMTcJZR9WHJV-25" value="Inventory Mangement Service&lt;div&gt;(GO, gRPC)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#CCE5FF;" parent="1" vertex="1">
+        <mxCell id="B4yxiOCJZMTcJZR9WHJV-25" value="&lt;b&gt;Inventory Mangement Service&lt;/b&gt;&lt;div&gt;&lt;b&gt;(GO, gRPC)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#CCE5FF;" parent="1" vertex="1">
           <mxGeometry x="387" y="664.5" width="202" height="77" as="geometry" />
         </mxCell>
         <mxCell id="B4yxiOCJZMTcJZR9WHJV-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="B4yxiOCJZMTcJZR9WHJV-27" edge="1">
@@ -82,7 +82,7 @@
             <mxPoint x="488" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B4yxiOCJZMTcJZR9WHJV-30" value="Recommendation Engine&lt;div&gt;(TenserFlow, Flask)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#CCE5FF;" parent="1" vertex="1">
+        <mxCell id="B4yxiOCJZMTcJZR9WHJV-30" value="&lt;b&gt;Recommendation Engine&lt;/b&gt;&lt;div&gt;&lt;b&gt;(TenserFlow, Flask)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#CCE5FF;" parent="1" vertex="1">
           <mxGeometry x="407.5" y="864" width="161" height="53" as="geometry" />
         </mxCell>
         <mxCell id="B4yxiOCJZMTcJZR9WHJV-34" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="B4yxiOCJZMTcJZR9WHJV-32" edge="1">
@@ -93,7 +93,7 @@
         <mxCell id="B4yxiOCJZMTcJZR9WHJV-32" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="389.5" y="1014" width="217" height="108" as="geometry" />
         </mxCell>
-        <mxCell id="B4yxiOCJZMTcJZR9WHJV-33" value="Delivery Tracking Service&lt;div&gt;(Node.js, Socket.io)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#CCE5FF;" parent="1" vertex="1">
+        <mxCell id="B4yxiOCJZMTcJZR9WHJV-33" value="&lt;b&gt;Delivery Tracking Service&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Node.js, Socket.io)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#CCE5FF;" parent="1" vertex="1">
           <mxGeometry x="400.5" y="1041.5" width="195" height="53" as="geometry" />
         </mxCell>
         <mxCell id="B4yxiOCJZMTcJZR9WHJV-38" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="B4yxiOCJZMTcJZR9WHJV-36" edge="1">
@@ -109,7 +109,7 @@
         <mxCell id="B4yxiOCJZMTcJZR9WHJV-36" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="389.5" y="1193" width="217" height="108" as="geometry" />
         </mxCell>
-        <mxCell id="B4yxiOCJZMTcJZR9WHJV-37" value="Caching&lt;div&gt;(Redis))&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#CCE5FF;" parent="1" vertex="1">
+        <mxCell id="B4yxiOCJZMTcJZR9WHJV-37" value="&lt;b&gt;Caching&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Redis))&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#CCE5FF;" parent="1" vertex="1">
           <mxGeometry x="418.5" y="1225" width="159" height="55" as="geometry" />
         </mxCell>
         <mxCell id="3xE5T52aA5AeAaNYNV-C-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B4yxiOCJZMTcJZR9WHJV-41" target="3xE5T52aA5AeAaNYNV-C-13">
@@ -118,16 +118,16 @@
         <mxCell id="B4yxiOCJZMTcJZR9WHJV-41" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CDA2BE;" parent="1" vertex="1">
           <mxGeometry x="103" y="1198.5" width="217" height="108.5" as="geometry" />
         </mxCell>
-        <mxCell id="B4yxiOCJZMTcJZR9WHJV-42" value="Message&amp;nbsp;&lt;div&gt;Queue&lt;/div&gt;&lt;div&gt;(RabbitMQ)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="B4yxiOCJZMTcJZR9WHJV-42" value="&lt;b&gt;Message&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;Queue&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;(RabbitMQ)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="141.5" y="1220.5" width="140" height="64" as="geometry" />
         </mxCell>
         <mxCell id="3xE5T52aA5AeAaNYNV-C-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B4yxiOCJZMTcJZR9WHJV-1" target="B4yxiOCJZMTcJZR9WHJV-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3xE5T52aA5AeAaNYNV-C-6" value="Authentication and Authorization&amp;nbsp;&lt;div&gt;(Node.js, JWT)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3xE5T52aA5AeAaNYNV-C-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Authentication and Authorization&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;(Node.js, JWT)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="66.5" y="329.75" width="135" height="75.25" as="geometry" />
         </mxCell>
-        <mxCell id="3xE5T52aA5AeAaNYNV-C-7" value="Customer Service&amp;nbsp;&lt;div&gt;(Spring Boot)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3xE5T52aA5AeAaNYNV-C-7" value="&lt;b&gt;Customer Service&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Spring Boot)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="407.5" y="322" width="135" height="75.25" as="geometry" />
         </mxCell>
         <mxCell id="3xE5T52aA5AeAaNYNV-C-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EA6B66;" vertex="1" parent="1">
@@ -162,28 +162,28 @@
         <mxCell id="3xE5T52aA5AeAaNYNV-C-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;" vertex="1" parent="1">
           <mxGeometry x="114" y="1925" width="217" height="108" as="geometry" />
         </mxCell>
-        <mxCell id="3xE5T52aA5AeAaNYNV-C-17" value="Relational Database&lt;div&gt;(PostgreSQL&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap; background-color: initial;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Message%26amp%3Bnbsp%3B%26lt%3Bdiv%26gt%3BQueue%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B(RabbitMQ)%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontSize%3D16%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22141.5%22%20y%3D%221220.5%22%20width%3D%22140%22%20height%3D%2264%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap; background-color: initial;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Message%26amp%3Bnbsp%3B%26lt%3Bdiv%26gt%3BQueue%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B(RabbitMQ)%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontSize%3D16%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22141.5%22%20y%3D%221220.5%22%20width%3D%22140%22%20height%3D%2264%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3xE5T52aA5AeAaNYNV-C-17" value="&lt;b&gt;Relational Database&lt;/b&gt;&lt;div&gt;&lt;b&gt;(PostgreSQL&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap; background-color: initial;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Message%26amp%3Bnbsp%3B%26lt%3Bdiv%26gt%3BQueue%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B(RabbitMQ)%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontSize%3D16%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22141.5%22%20y%3D%221220.5%22%20width%3D%22140%22%20height%3D%2264%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap; background-color: initial;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Message%26amp%3Bnbsp%3B%26lt%3Bdiv%26gt%3BQueue%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B(RabbitMQ)%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontSize%3D16%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22141.5%22%20y%3D%221220.5%22%20width%3D%22140%22%20height%3D%2264%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="138" y="1391" width="140" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="3xE5T52aA5AeAaNYNV-C-18" value="NoSQL Database&lt;div&gt;(MongoDB)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3xE5T52aA5AeAaNYNV-C-18" value="&lt;b&gt;NoSQL Database&lt;/b&gt;&lt;div&gt;&lt;b&gt;(MongoDB)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="431.5" y="1394" width="140" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="3xE5T52aA5AeAaNYNV-C-19" value="Monitoring&lt;div&gt;(Prometheus, Graphana)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3xE5T52aA5AeAaNYNV-C-19" value="&lt;b&gt;Monitoring&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Prometheus, Graphana)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="138" y="1580" width="140" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="3xE5T52aA5AeAaNYNV-C-20" value="Logging&amp;nbsp;&lt;div&gt;(ELK Stack)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3xE5T52aA5AeAaNYNV-C-20" value="&lt;b&gt;Logging&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;(ELK Stack)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="428" y="1567" width="140" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="3xE5T52aA5AeAaNYNV-C-21" value="CI/CD&lt;div&gt;(GitLab CI)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3xE5T52aA5AeAaNYNV-C-21" value="&lt;b&gt;CI/CD&lt;/b&gt;&lt;div&gt;&lt;b&gt;(GitLab CI)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="144.5" y="1771" width="140" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="3xE5T52aA5AeAaNYNV-C-22" value="Service Discovery&lt;div&gt;(Consul)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3xE5T52aA5AeAaNYNV-C-22" value="&lt;b&gt;Service Discovery&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Consul)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="434" y="1771" width="140" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="3xE5T52aA5AeAaNYNV-C-23" value="Container Registry&lt;div&gt;(DockerHub)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3xE5T52aA5AeAaNYNV-C-23" value="&lt;b&gt;Container Registry&lt;/b&gt;&lt;div&gt;&lt;b&gt;(DockerHub)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="152.5" y="1950" width="140" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="3xE5T52aA5AeAaNYNV-C-24" value="Container Orchestration&lt;div&gt;(Kubernetes)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3xE5T52aA5AeAaNYNV-C-24" value="&lt;b&gt;Container Orchestration&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Kubernetes)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="437.5" y="1941" width="140" height="64" as="geometry" />
         </mxCell>
         <mxCell id="3xE5T52aA5AeAaNYNV-C-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.462;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3xE5T52aA5AeAaNYNV-C-15" target="3xE5T52aA5AeAaNYNV-C-16">
@@ -197,14 +197,17 @@
         <mxCell id="3xE5T52aA5AeAaNYNV-C-37" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CDA2BE;" vertex="1" parent="1">
           <mxGeometry x="129" y="-148" width="358" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="3xE5T52aA5AeAaNYNV-C-40" value="User APP" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3xE5T52aA5AeAaNYNV-C-40" value="&lt;b&gt;User APP&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="247" y="-130" width="129" height="69" as="geometry" />
         </mxCell>
-        <mxCell id="3xE5T52aA5AeAaNYNV-C-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1327" y="-148" width="1278" height="1271" as="geometry" />
-        </mxCell>
         <mxCell id="3xE5T52aA5AeAaNYNV-C-44" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;In this design, the following technologies and frameworks are used:&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;API Gateway: Kong or Nginx for API management, routing, and load balancing.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Load Balancer: Kubernetes Ingress for distributing traffic across microservice instances.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Authentication and Authorization Service: Node.js with JWT for user authentication and authorization.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Customer Service: Spring Boot for managing customer profiles, orders, and payments.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Order Processing: Python for order processing and assignment to delivery personnel.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Inventory Management Service: Go with gRPC for inventory tracking and supplier integration.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Recommendation Engine: TensorFlow and Flask for providing personalized product recommendations.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Delivery Tracking Service: Node.js with Socket.io for real-time delivery tracking updates.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Message Queue: RabbitMQ for asynchronous communication between microservices.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Caching: Redis for caching frequently accessed data.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Relational Database: PostgreSQL for structured data storage.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;NoSQL Database: MongoDB for unstructured data storage.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Monitoring: Prometheus and Grafana for monitoring system metrics and visualizations.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Logging: ELK Stack (Elasticsearch, Logstash, Kibana) for centralized logging and log analysis.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;CI/CD Pipeline: GitLab CI for continuous integration and continuous deployment.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Service Discovery: Consul for service discovery and health checking.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Container Registry: Docker Hub for storing and distributing container images.&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Container Orchestration: Kubernetes for container orchestration, scaling, and management.&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1298" y="28" width="1220" height="1234" as="geometry" />
+          <mxGeometry x="-1563" y="1068" width="1546" height="1234" as="geometry" />
+        </mxCell>
+        <mxCell id="3xE5T52aA5AeAaNYNV-C-45" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;u&gt;&lt;font style=&quot;&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(32, 33, 36); font-family: docs-Roboto, Helvetica, Arial, sans-serif; text-align: start;&quot;&gt;Low-Level&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32, 33, 36); font-family: docs-Roboto, Helvetica, Arial, sans-serif; text-align: start; white-space-collapse: preserve;&quot;&gt;system design for hyper-local grocery delivery&lt;/span&gt;&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1107" y="-474" width="1369" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="3xE5T52aA5AeAaNYNV-C-47" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;API Gateway: The API Gateway (Kong or Nginx) acts as the entry point for all client requests. It handles API management, routing, and load balancing across the different microservices.&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Authentication and Authorization Service: When a user interacts with the application, the Authentication and Authorization Service (Node.js with JWT) handles user authentication and authorization, ensuring that only authenticated and authorized users can access the appropriate resources and functionalities.&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Customer Service: The Customer Service (Spring Boot) manages customer profiles, orders, and payments. It likely interacts with the databases (PostgreSQL for structured data and MongoDB for unstructured data) to store and retrieve customer-related information.&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Order Processing: When a customer places an order, the Order Processing service (Python) handles the order processing logic, potentially interacting with other services like Inventory Management and Delivery Tracking.&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Inventory Management Service: The Inventory Management Service (Go with gRPC) tracks inventory levels, integrates with suppliers, and ensures that orders can be fulfilled based on available stock.&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Recommendation Engine: The Recommendation Engine (TensorFlow and Flask) provides personalized product recommendations to customers based on their browsing and purchase history, potentially leveraging machine learning algorithms.&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Delivery Tracking Service: The Delivery Tracking Service (Node.js with Socket.io) enables real-time updates on the delivery status of orders, allowing customers to track their shipments.&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Message Queue: RabbitMQ is used for asynchronous communication between microservices, enabling loose coupling and facilitating event-driven architectures.&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Caching: Redis is employed for caching frequently accessed data, improving application performance and reducing the load on databases.&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Monitoring and Logging: Prometheus and Grafana are used for monitoring system metrics and visualizing performance data, while the ELK Stack (Elasticsearch, Logstash, Kibana) handles centralized logging and log analysis for troubleshooting and auditing purposes.&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;CI/CD Pipeline: GitLab CI is the Continuous Integration and Continuous Deployment (CI/CD) pipeline, automating the build, testing, and deployment processes for the application.&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Service Discovery: Consul is used for service discovery and health checking, enabling microservices to discover and communicate with each other dynamically.&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Container Registry and Orchestration: Docker Hub is the container registry for storing and distributing container images, while Kubernetes is used for container orchestration, scaling, and management of the microservices across a cluster of nodes.&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1577" y="-26" width="1550" height="871" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
